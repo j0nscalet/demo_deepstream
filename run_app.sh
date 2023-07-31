@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 cd samples/configs/deepstream-app/
 deepstream-app -c demo_rtsp_output.txt &
