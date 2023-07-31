@@ -16,9 +16,10 @@ Because everything is running on AWS, forwarding screen will be too annoying. He
   ```
 - Check the dockerfile for more details.
 ## Run the contianer 
-```bash
-docker run -it --rm --gpus all neilvaltec/demo_deepstream:tag bash
-```
+- Check [here](https://github.com/Valteq/starship/issues/6#issuecomment-1635487547) to see how to run a container as a input RTSP. 
+- ```bash
+  docker run -it --rm --gpus all --network:container:<container_id> neilvaltec/demo_deepstream:tag bash
+  ```
 ## Notes
 - col: method
 - row: input source
