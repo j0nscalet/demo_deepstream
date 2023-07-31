@@ -1,5 +1,8 @@
 # demo_deepstream
 This repo demos the frameowork, Deepstream, that it will consume a video or a RTSP and do the object detection, then output the result as a RTSP.
+
+Because everything is running on AWS, forwarding screen will be too annoying. Here we use ffmpeg to record the RTSP stream. Check dockerfile for more details.
+
 ## Prebuilt image
 - [HERE](https://hub.docker.com/repository/docker/neilvaltec/demo_deepstream)
 ## Build the image
