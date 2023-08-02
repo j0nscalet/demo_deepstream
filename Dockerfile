@@ -33,6 +33,6 @@ RUN sh run_app.sh
 CMD /bin/bash
 
 ## Use below commands to run RTSP in RTSP out demo
-## It was set to read RTSP rtsp://localhost:8555/drone_camera by default
+## It was set to read RTSP rtsp://localhost:8666/drone_camera_1 by default
 # cd samples/configs/deepstream-app/
 # deepstream-app -c demo_rtsp_in_rtsp_output.txt 

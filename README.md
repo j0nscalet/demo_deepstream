@@ -18,6 +18,8 @@ Because everything is running on AWS, forwarding screen will be too annoying. He
   docker build -t neilvaltec/demo_deepstream:tag .
   ```
 - Check the dockerfile for more details.
+- You can check the deepstream output result during the image build under `/root/output/`
+
 ## Run the contianer 
 - Check [here](https://github.com/Valteq/starship/issues/6#issuecomment-1635487547) to see how to run a container as a input RTSP. 
 - ```bash
