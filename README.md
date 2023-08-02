@@ -3,6 +3,8 @@ This repo demos the frameowork, Deepstream, that it will consume a video or a RT
 
 Because everything is running on AWS, forwarding screen will be too annoying. Here we use ffmpeg to record the RTSP stream. Check dockerfile for more details.
 
+**Follow the steps in the demo video down below**
+
 ## Demo video
 - [Here](https://drive.google.com/file/d/1jrcJYUSG_GSZPGFznRXavHkDJIOnPqPx/view?usp=sharing)
 
