@@ -40,12 +40,3 @@ Because everything is running on AWS, forwarding screen will be too annoying. He
   |---|---|---|
   |deepstream-app|V|V|
   |python script|V|TODO|
-
-
-## Environments
-- Cloud provider
-    - AWS
-- Image
-    - amazon/Deep Learning AMI GPU CUDA 11.2.1 (Ubuntu 20.04) 20220607
-- Instance type
-    - g4dn.2xlarge (NVIDIA T4 GPU * 1)
